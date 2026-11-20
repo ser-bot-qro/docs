@@ -1,0 +1,22 @@
+site_name: SER-QRO | Documentación municipal
+site_description: Guía para instalar, desplegar y operar SER-QRO en servidores municipales.
+site_url: https://ser-bot-qro.github.io/docs/
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+
+theme:
+  variant: modern
+
+nav:
+  - Inicio: index.md
+  - Guía municipal: guia-municipal.md
+
+extra:
+  version:
+    provider: mike
+    default: latest
+    alias: true
+
+remote_name: origin
+remote_branch: gh-pages
